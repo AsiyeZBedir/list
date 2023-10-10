@@ -16,7 +16,6 @@ function addTask() {
 
   taskList.appendChild(taskItem);
   taskInput.value = '';
-
   const deleteButton = taskItem.querySelector('.deleteButton');
   deleteButton.addEventListener('click', () => {
     taskList.removeChild(taskItem);
